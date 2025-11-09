@@ -1,0 +1,19 @@
+{
+  "name": "cesis-eink",
+  "version": "1.0.0",
+  "description": "Server for CESIS classroom eink information displays",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "alex",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "node-cron": "^4.2.1",
+    "node-ical": "^0.22.1",
+    "puppeteer": "^24.29.1"
+  }
+}
